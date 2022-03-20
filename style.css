@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #127369;
+    --cor2: #10403B;
+    --cor3: #8AA6A3;
+    --cor4: #4C5958;
+    --cor5: #BFBFBF;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+label{
+    position: relative;
+    width: 150px;
+    height: 75px;
+    background: #4C5958;
+    justify-content: right;
+}
+
+div#cabecario{
+    background: var(--cor1);
+    color: white;
+    width: 80%;
+    float: right;
+}
+
+div#cabecario h1{
+    padding: 10px;
+}
+
+div.lado{
+    width: 20%;
+    float: left;
+    height: 100vh;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding: 5px 0px 0px 10px;
+}
+
+li a:hover{
+    color: rgb(250, 105, 52);
+}
+
+.anexo1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.musica{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.corpo{
+    margin: auto;
+    width: 70%;
+    float: right center;
+    
+}
+
+.corpo p{
+    padding: 10px 0px;
+}
+
