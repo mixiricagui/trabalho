@@ -83,3 +83,30 @@ li a:hover{
     padding: 10px 0px;
 }
 
+nav{
+    position: relative;
+    background: #127369;
+    font-size: 1.8em;
+    
+}
+
+nav h3{
+    text-align: center;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+   
+}
+
+nav a:hover{
+    color: rgb(250, 105, 52);
+}
+
+img{
+    max-width: 30px;
+    padding-top: 5px;
+}
